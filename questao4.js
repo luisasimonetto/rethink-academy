@@ -1,4 +1,4 @@
-// Retornar os nomes das pessoas 
+// Retornar somente o primeiro nome.
 
 const pessoas = [
     {name: "Fabiana Araújo", age: 23},
@@ -11,7 +11,6 @@ const pessoas = [
   ]
 
   function retornaPrimeiroNome() {
-    let primeiroNome = new Array();
     for (let i = 0; i < pessoas.length; i++) {
       primeiroNome.push(pessoas[i].name.split(" ")[0]);
     }
