@@ -11,13 +11,13 @@ const pessoas = [
   ]
   
   function maioresDeIdade() {
-    let pessoasmaioresDeIdade = new Array();
+    let pessoaMaiorIdade = new Array();
     for (let i = 0; i < pessoas.length; i++) {
       if(pessoas[i].age >= 18){
-        pessoasmaioresDeIdade.push(pessoas[i]);
+        pessoasMaiorIdade.push(pessoas[i]);
       }   
     }
-    return pessoasmaioresDeIdade;
+    return pessoaMaiorIdade;
   }
   
-  console.log(maioresDeIdade());
+  console.log(maiorDeIdade());
