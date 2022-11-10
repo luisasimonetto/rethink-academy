@@ -1,4 +1,4 @@
-// //Media das idades
+// Função que retorna a média das Idades
 
 const pessoas = [
     {name: "Fabiana Araújo", age: 23},
